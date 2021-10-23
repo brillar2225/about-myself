@@ -1,0 +1,175 @@
+/* font
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Shadows+Into+Light&family=Yomogi&family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Kurenaido&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet"/>
+font-family: 'Comfortaa', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Yomogi', cursive;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+font-family: 'Zen Kurenaido', sans-serif;
+font-family: 'Zen Maru Gothic', sans-serif;
+*/
+
+/* header */
+#top-bar {
+  overflow: hidden;
+}
+
+.home-icon {
+  float: left;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook-icon,
+.instagram-icon,
+.github-icon {
+  float: right;
+  margin: 10px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+header {
+  background-color: rgb(146, 0, 0);
+  overflow: hidden;
+}
+
+.menu {
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 15px;
+}
+
+.menu a {
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  border-right: 2px solid black;
+}
+
+.menu a:hover {
+  background-color: rgb(194, 60, 60);
+  color: white;
+}
+
+.menu a:visited {
+  color: black;
+}
+
+/* main & title */
+main {
+  text-align: center;
+}
+
+#title {
+  font-family: "Yomogi", cursive;
+  font-size: 50px;
+  margin: 80px 0px;
+}
+
+.title2,
+.title3 {
+  border-top: 3px solid plum;
+  padding-top: 40px;
+}
+/* containers - 1 */
+#first-container　 {
+  display: block;
+}
+
+.title1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.profile {
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+
+.profile ol {
+  list-style: none;
+  margin: 38px 0px;
+}
+
+.profile ol li {
+  padding: 37px 0px;
+  font-size: 20px;
+}
+
+.profile-image {
+  float: right;
+  display: inline-block;
+  width: 50%;
+}
+
+.profile-image img {
+  width: 350px;
+  height: 490px;
+}
+
+/* containers - 2 */
+#second-container {
+  display: block;
+}
+
+.title2 {
+  display: inline-block;
+  width: 100%;
+}
+
+#second-article {
+  display: inline-block;
+}
+
+.favorite {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.favorite img {
+  width: 450px;
+  height: 450px;
+  margin: 0px 30px;
+}
+
+/* containers - 3 */
+#third-container {
+  display: block;
+  border-bottom: 3px solid plum;
+}
+
+.title3 {
+  display: inline-block;
+  width: 100%;
+}
+
+#third-article img {
+  width: 500px;
+  height: 600px;
+  margin: 30px 0px;
+}
+
+#like-dislike {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 35px;
+  margin: 50px;
+}
+
+/* footer */
+footer {
+  margin: 200px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 18px;
+}
+
+#move-top {
+  font-size: 40px;
+}
