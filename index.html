@@ -56,11 +56,36 @@
         <h3 id="title" class="title1">Who am I?</h3>
         <article id="first-article">
           <div class="profile">
+            <!--テキストにMouseover, Mouseoutした時、文字が変わるようにAttribute追加-->
             <ol>
-              <li class="name">NAME</li>
-              <li class="birthday">BIRTHDAY</li>
-              <li class="hometown">WHERE AM I FROM?</li>
-              <li class="university">UNIVERSITY</li>
+              <li
+                class="name"
+                onmouseover="this.innerText='鄭 在熙(Jaehee Chung)'"
+                onmouseout="this.innerText='NAME'"
+              >
+                NAME
+              </li>
+              <li
+                class="birthday"
+                onmouseover="this.innerText='September 22nd 1998'"
+                onmouseout="this.innerText='BIRTHDAY'"
+              >
+                BIRTHDAY
+              </li>
+              <li
+                class="hometown"
+                onmouseover="this.innerText='Daegu, Korea, Republic of'"
+                onmouseout="this.innerText='WHERE AM I FROM?'"
+              >
+                >WHERE AM I FROM?
+              </li>
+              <li
+                class="university"
+                onmouseover="this.innerText='Chuo University'"
+                onmouseout="this.innerText='UNIVERSITY'"
+              >
+                UNIVERSITY
+              </li>
             </ol>
           </div>
           <div class="profile-image">
@@ -71,16 +96,16 @@
       <div id="second-container">
         <h3 id="title" class="title2">Favorite</h3>
         <article id="second-article">
-          <div class="favorite">
+          <div id="favorite">
             <img
               src="images/main/favorite1.JPG"
               alt="Food"
-              class="favorite-img1"
+              id="favorite-img1"
             />
             <img
               src="images/main/favorite2.JPG"
               alt="Daegu"
-              class="favorite-img2"
+              id="favorite-img2"
             />
           </div>
         </article>
@@ -99,10 +124,10 @@
       <form id="like-dislike">
         <label class="form-title">気に入りましたか？</label>
         <div id="button">
-          <div class="counting"></div>
-          <button class="like-btn">👍</button>
-          <button class="dislike-btn">👎</button>
-          <div class="counting"></div>
+          <div id="like-container"></div>
+          <button id="like-btn" type="button">👍</button>
+          <button id="dislike-btn" type="button">👎</button>
+          <div id="dislike-container"></div>
         </div>
       </form>
     </main>
